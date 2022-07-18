@@ -1,0 +1,286 @@
+body {
+  background-color: hsl(226, 43%, 10%);
+  color: #fff;
+}
+
+.main {
+  position: relative;
+  top: 80px;
+}
+
+.main-section {
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 7%;
+  height: 300px;
+  width: 220px;
+  position: absolute;
+  top: 50px;
+  z-index: 3;
+}
+
+.main-section img {
+  border-radius: 50%;
+  width: 100px;
+  margin: 15px 15px;
+}
+
+.main-section p {
+  font-size: 1rem;
+  padding-left: 25px;
+  margin-bottom: 0;
+  color: whitesmoke;
+}
+
+.main-section h1 {
+  font-size: 3.3rem;
+  padding-left: 25px;
+  margin-top: 0;
+  color: whitesmoke;
+}
+
+.menu-section {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 7%;
+  height: 200px;
+  width: 220px;
+  position: absolute;
+  z-index: 2;
+  top: 275px;
+}
+
+.menu-section h5:nth-child(1) {
+  margin-top: 80px;
+}
+
+.menu-section h5 {
+  font-size: 1rem;
+  margin-bottom: 0;
+  padding: 8px 30px 10px 20px;
+  color: hsl(235, 45%, 61%);
+}
+
+.menu-section h5:hover {
+  color: hsl(236, 100%, 87%);
+}
+
+.work-col {
+  position: relative;
+}
+
+.work-bg {
+  background-color: hsl(15, 100%, 70%);
+  height: 150px;
+  width: 250px;
+  border-radius: 7%;
+  position: absolute;
+  z-index: 4;
+}
+
+.work {
+  color: whitesmoke;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 7%;
+  height: auto;
+  width: 250px;
+  position: absolute;
+  z-index: 5;
+  top: 50px;
+}
+
+.work h4 {
+  font-size: 20px;
+  padding: 20px 15px 15px 20px;
+}
+.work h3 {
+  font-size: 3rem;
+  padding: 0 15px 0 20px;
+}
+.work p {
+  font-size: 1rem;
+  padding: 0 15px 20px 20px;
+}
+.play-col {
+  position: relative;
+}
+
+.play-bg {
+  background-color: hsl(195, 74%, 62%);
+  height: 150px;
+  width: 250px;
+  border-radius: 7%;
+  position: absolute;
+  z-index: 4;
+}
+
+.play {
+  color: whitesmoke;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 7%;
+  height: auto;
+  width: 250px;
+  position: absolute;
+  z-index: 5;
+  top: 50px;
+}
+
+.play h4 {
+  font-size: 20px;
+  padding: 20px 15px 15px 20px;
+}
+.play h3 {
+  font-size: 3rem;
+  padding: 0 15px 0 20px;
+}
+.play p {
+  font-size: 1rem;
+  padding: 0 15px 20px 20px;
+}
+
+.study-col {
+  position: relative;
+}
+
+.study-bg {
+  background-color: hsl(348, 100%, 68%);
+  height: 150px;
+  width: 250px;
+  border-radius: 7%;
+  position: absolute;
+  z-index: 4;
+}
+
+.study {
+  color: whitesmoke;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 7%;
+  height: auto;
+  width: 250px;
+  position: absolute;
+  z-index: 5;
+  top: 50px;
+}
+
+.study h4 {
+  font-size: 20px;
+  padding: 20px 15px 15px 20px;
+}
+.study h3 {
+  font-size: 3rem;
+  padding: 0 15px 0 20px;
+}
+.study p {
+  font-size: 1rem;
+  padding: 0 15px 20px 20px;
+}
+.exercise-col {
+  position: relative;
+  top: 280px;
+}
+.exercise-bg {
+  background-color: hsl(145, 58%, 55%);
+  height: 150px;
+  width: 250px;
+  border-radius: 7%;
+  position: absolute;
+  z-index: 4;
+}
+
+.exercise {
+  color: whitesmoke;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 7%;
+  height: auto;
+  width: 250px;
+  position: absolute;
+  z-index: 5;
+  top: 50px;
+}
+
+.exercise h4 {
+  font-size: 20px;
+  padding: 20px 15px 15px 20px;
+}
+.exercise h3 {
+  font-size: 3rem;
+  padding: 0 15px 0 20px;
+}
+.exercise p {
+  font-size: 1rem;
+  padding: 0 15px 20px 20px;
+}
+.social-col {
+  position: relative;
+  top: 280px;
+}
+.social-bg {
+  background-color: hsl(264, 64%, 52%);
+  height: 150px;
+  width: 250px;
+  border-radius: 7%;
+  position: absolute;
+  z-index: 4;
+}
+
+.social {
+  color: whitesmoke;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 7%;
+  height: auto;
+  width: 250px;
+  position: absolute;
+  z-index: 5;
+  top: 50px;
+}
+
+.social h4 {
+  font-size: 20px;
+  padding: 20px 15px 15px 20px;
+}
+.social h3 {
+  font-size: 3rem;
+  padding: 0 15px 0 20px;
+}
+.social p {
+  font-size: 1rem;
+  padding: 0 15px 20px 20px;
+}
+.selfcare-col {
+  position: relative;
+  top: 280px;
+}
+.selfcare-bg {
+  background-color: hsl(43, 84%, 65%);
+  height: 150px;
+  width: 250px;
+  border-radius: 7%;
+  position: absolute;
+  z-index: 4;
+}
+
+.selfcare {
+  color: whitesmoke;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 7%;
+  height: auto;
+  width: 250px;
+  position: absolute;
+  z-index: 5;
+  top: 50px;
+}
+
+.selfcare h4 {
+  font-size: 20px;
+  padding: 20px 15px 15px 20px;
+}
+.selfcare h3 {
+  font-size: 3rem;
+  padding: 0 15px 0 20px;
+}
+.selfcare p {
+  font-size: 1rem;
+  padding: 0 15px 20px 20px;
+}
+
+.col-lg-9 img {
+  margin-left: 150px;
+}
